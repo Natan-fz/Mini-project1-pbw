@@ -1,4 +1,5 @@
 ****Laporan Proyek Website Portfolio****
+
 ***1. Deskripsi Umum Proyek***
 
 Website ini merupakan website portfolio pribadi yang dibuat menggunakan HTML, CSS, Bootstrap 5, dan Vue JS. Website ini menampilkan informasi profil mahasiswa, pengalaman organisasi, daftar skill, serta sertifikat yang pernah diperoleh.
