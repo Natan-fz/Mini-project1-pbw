@@ -6,11 +6,11 @@ Website ini merupakan website portfolio pribadi yang dibuat menggunakan HTML, CS
 
 Struktur website dibagi menjadi beberapa section utama, yaitu:
 
-Navbar
+-Navbar
 
-Hero Section
+-Hero Section
 
-About Section
+-About Section
 
 Certificates Section
 
@@ -19,7 +19,7 @@ Website ini menggunakan Bootstrap untuk sistem grid dan layout responsif, serta 
 ***2. Tampilan Setiap Section / Fitur***
 **2.1 Navbar**
 
-Tempatkan screenshot hasil tampilan Navbar di bawah ini:
+
 
 <img width="1898" height="90" alt="image" src="https://github.com/user-attachments/assets/0fcc0b08-557a-4ab2-9dbe-3532a2fbeacb" />
 
@@ -28,27 +28,27 @@ Penjelasan:
 
 Navbar berada pada bagian paling atas halaman dan bersifat fixed-top sehingga tetap terlihat meskipun halaman di-scroll. Navbar berisi:
 
-Nama sebagai brand
+-Nama sebagai brand
 
-Menu navigasi (Home, About, Certificates)
+-Menu navigasi (Home, About, Certificates)
 
 Penjelasan Kode:
 
 Navbar menggunakan komponen Bootstrap dengan class:
 
-navbar
+-navbar
 
-navbar-expand-lg
+-navbar-expand-lg
 
-fixed-top
+-fixed-top
 
-container
+-container
 
-navbar-nav
+-navbar-nav
 
-nav-item
+-nav-item
 
-nav-link
+-nav-link
 
 Atribut data-bs-toggle="collapse" dan data-bs-target="#navMenu" digunakan untuk membuat menu responsif pada layar kecil.
 
@@ -56,16 +56,16 @@ Navigasi menggunakan anchor dengan href seperti #home, #about, dan #certificates
 
 Pada bagian CSS, class .custom-navbar digunakan untuk mengatur:
 
-Warna background
+-Warna background
 
-Padding
+-Padding
 
-Warna link
+-Warna link
 
-Efek hover
+-Efek hover
 
 **2.2 Hero Section**
-Tempatkan screenshot hasil tampilan Hero Section di bawah ini:
+
 
 <img width="1917" height="1074" alt="image" src="https://github.com/user-attachments/assets/16ce73ce-abd0-4059-836c-7680d0f53740" />
 
@@ -104,15 +104,15 @@ Gambar menggunakan tag <img> dengan class hero-image.
 
 Pada bagian CSS:
 
-.hero-section mengatur background, tinggi minimal 100vh, dan alignment tengah.
+1. hero-section mengatur background, tinggi minimal 100vh, dan alignment tengah.
 
-.hero-title mengatur ukuran font besar (60px) dan tebal.
+2. hero-title mengatur ukuran font besar (60px) dan tebal.
 
-.hero-image mengatur lebar gambar maksimal dan border-radius.
+3. hero-image mengatur lebar gambar maksimal dan border-radius.
 
 **2.3 About Section**
 
-Tempatkan screenshot hasil tampilan About Section di bawah ini:
+
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bea5d435-2e6c-44d3-a33f-73935c8a90f2" />
 
@@ -145,19 +145,19 @@ Directive v-for berfungsi untuk melakukan perulangan array dan menampilkan setia
 
 Progress bar menggunakan komponen Bootstrap:
 
-progress
+-progress
 
-progress-bar
+-progress-bar
 
 Pada CSS:
 
-.custom-progress mengatur tinggi progress bar.
+1. custom-progress mengatur tinggi progress bar.
 
-.progress-bar mengatur warna bar.
+2. progress-bar mengatur warna bar.
 
 **2.4 Certificates Section**
 
-Tempatkan screenshot hasil tampilan Certificates Section di bawah ini:
+
 
 <img width="1914" height="1074" alt="image" src="https://github.com/user-attachments/assets/4191f37f-4fd2-424f-853e-179d9bf6695e" />
 
@@ -176,23 +176,23 @@ Penjelasan Kode:
 
 Struktur menggunakan grid Bootstrap:
 
-row
+-row
 
-col-md-6
+-col-md-6
 
-mb-4
+-mb-4
 
 Setiap sertifikat dibungkus dalam div dengan class certificate-card.
 
 Pada CSS:
 
-.certificate-card menggunakan background putih.
+-certificate-card menggunakan background putih.
 
-border-radius untuk sudut melengkung.
+-border-radius untuk sudut melengkung.
 
-box-shadow untuk efek bayangan.
+-box-shadow untuk efek bayangan.
 
-overflow: hidden agar gambar tidak keluar dari card.
+-overflow hidden agar gambar tidak keluar dari card.
 
 Gambar diatur menggunakan:
 
@@ -220,38 +220,38 @@ Bagian <style> digunakan untuk mengatur tampilan keseluruhan website.
 
 Beberapa bagian utama:
 
-Global
+-Global
 Mengatur font menggunakan 'Segoe UI'.
 
-Navbar
+-Navbar
 Mengatur background warna abu-abu terang dan efek hover pada link.
 
-Hero Section
+-Hero Section
 Mengatur tinggi minimal 100vh dan alignment tengah.
 
-Section Light dan Section Gray
+-Section Light dan Section Gray
 Digunakan untuk membedakan warna latar antar section.
 
-Skills
+-Skills
 Mengatur tinggi dan warna progress bar.
 
-Certificate Card
+-Certificate Card
 Mengatur tampilan card agar terlihat modern dengan bayangan dan sudut melengkung.
 
 ***5. Teknologi yang Digunakan***
 
 Berikut teknologi yang digunakan dalam pembuatan website ini:
 
-HTML5
+-HTML5
 Digunakan untuk membangun struktur dasar halaman dan section.
 
-CSS3
+-CSS3
 Digunakan untuk styling, layout, warna, dan tampilan visual.
 
-Bootstrap 5
+-Bootstrap 5
 Digunakan untuk sistem grid, navbar responsif, dan progress bar.
 
-Vue JS 3
+-Vue JS 3
 Digunakan untuk rendering dinamis pada bagian skills menggunakan directive v-for.
 
 TypeScript
